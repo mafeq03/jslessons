@@ -28,4 +28,13 @@ job = 'clown';
 alert(firstName + ' is a ' + age + ' years old ' + job + '. Is she married?' + isMarried)
 
 var lastName = prompt('What is her last Name');
-console.log(firstName + ' ' + lastName);
+console.log(firstName + ' ' +  lastName);
+
+//Basic Operators
+
+var year = 2018;
+var yearJohn = year - 28;
+var 
+
+//Math Operators
+var year 
