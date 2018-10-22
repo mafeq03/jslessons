@@ -33,7 +33,7 @@ console.log(firstName + ' ' +  lastName);
 //Basic Operators
 var year, yearJohn, yearMark, ageJohn, ageMark;
 ageJohn = 28;
-ageMark = 33;
+ageMark = 33; 
 
 now = 2018;
 yearJohn = now - ageJohn;
@@ -56,7 +56,27 @@ console.log(typeof johnOlder);
 console.log(typeof ageJohn);
 
 //Operator Precedence
-
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
+
+//Multiple operators
+var isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);
+
+//Grouping
+var ageJohn = now -  yearJohn;
+var ageMark = 35;
+var average = (ageJohn + ageMark) / 2;
+console.log(average);
+
+//Multiple assignments
+var x,y;
+x = y = (3+5) * 4 - 6;
+console.log(x,y);
+
+//More Operators
+x +=2;
+console.log(x);
+x+=10;
+console.log(x);
