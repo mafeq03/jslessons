@@ -102,7 +102,10 @@ GOOD LUCK 😀
 var markHeight = 1.75;
 var johnHeight = 1.8;
 
-var markMass = markHeight ** 2;
-var johnMass = johnHeight ** 2;
+var markMass = 80;
+var johnMass = 90;
 
+//BMI (weight in kg)/(height**2 in meters)
 
+var markBmi = markMass / (markHeight * markHeight);
+var johnBmi = johnMass / (johnHeight * johnHeight);
