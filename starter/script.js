@@ -109,8 +109,10 @@ var johnMass = 90;
 
 var markBmi = markMass / (markHeight * markHeight);
 var johnBmi = johnMass / (johnHeight * johnHeight);
-console.log(markBmi);
-console.log(johnBmi);I = BMIMark > BMIJohn;
+
+if (markBmi > )
+// console.log(markBmi);
+// console.log(johnBmi);I = BMIMark > BMIJohn;
 
 //If/Else statements
 
