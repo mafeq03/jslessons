@@ -110,7 +110,11 @@ var johnMass = 90;
 var markBmi = markMass / (markHeight * markHeight);
 var johnBmi = johnMass / (johnHeight * johnHeight);
 
-if (markBmi > )
+if (markBmi > johnBmi){
+  console.log('Mark\'s BMI is higher than John\'.s');
+}else{
+  console.log('John\'s BMI is higher than Marl\'s.');
+}
 // console.log(markBmi);
 // console.log(johnBmi);I = BMIMark > BMIJohn;
 
