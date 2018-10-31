@@ -150,3 +150,16 @@ if (age < 13){
    else {
   console.log(firstName + 'is a man');
   }
+
+  //The ternary Operator
+  
+  var firstName = 'Lenny';
+  var age = 16;
+
+  //condition + the if block + else block
+  age >= 18 ? console.log(firstName + ' drinks beer.') :console.log(firstName + ' drinks juice.');
+
+  var age = 22;
+
+  var drink = age >= 18 ? 'beer' : 'juice';
+  console.log(drink);
