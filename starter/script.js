@@ -182,3 +182,21 @@ if (age < 13){
     console.log( teachName + ' teaches kids how to code.');
   }
 
+var firstName = 'Eric';
+var age = 18;
+
+  switch(true){
+    case age < 13:
+      console.log(firstName + 'is a boy.');
+      break;
+    case age >= 13 && age <20:
+      console.log (firstName + 'is a teenager.');
+      break;
+    case age >= 20 && age <30:
+      console.log (firstName + 'is a young man.');
+      break;
+    default:
+    console.log(firstName + 'is a man');
+
+  }
+
