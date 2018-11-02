@@ -200,3 +200,14 @@ var age = 18;
 
   }
 
+//Truthy and Falsy values
+//falsy values: undefined, null,0,'', NaN
+//truthy values: Not falsy values
+
+var height;
+
+if(height){
+  console.log('Variable is defined');
+} else {
+  console.log('Variable has not been defined');
+}
