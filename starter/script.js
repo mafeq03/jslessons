@@ -205,9 +205,18 @@ var age = 18;
 //truthy values: Not falsy values
 
 var height;
-
-if(height){
+height = 23;
+if(height || height ===0){
   console.log('Variable is defined');
 } else {
   console.log('Variable has not been defined');
 }
+
+//Equality Operations
+if (height == '23'){
+  console.log('The == operator does type coercion');
+}
+//JS turns '23' - string to a number for comparisson
+
+//Always use === to avoid issues
+
