@@ -218,4 +218,4 @@ if (height == '23'){
 }
 //JS turns '23' - string to a number for comparisson
 
-//Always use === to avoid issue
+//Always use === to avoid issues
