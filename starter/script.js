@@ -235,4 +235,6 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 
 GOOD LUCK 😀
 */
-//
+
+var scoreJohn = (89+120+103)/3;
+var scoreMike = (116 +94 +123)/3;
