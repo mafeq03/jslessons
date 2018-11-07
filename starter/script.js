@@ -259,3 +259,11 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary){
 } else{
   console.log("Mary's score is " + scoreMary + " and she is the winner");
 }
+
+//Functions
+function calculateAge(birthYear){
+  return 2018 - birthYear;
+}
+
+var ageJohn = calculateAge (1990);
+console.log(ageJohn);
