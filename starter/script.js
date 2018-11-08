@@ -269,3 +269,10 @@ var ageJohn = calculateAge (1990);
 var ageMary = calculateAge(1982);
 var ageAnegela = calculateAge (1986);
 console.log(ageJohn, ageMary, ageAnegela);
+
+
+function retireTime (year, firstName){
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+  console.log( firstName +" has " + retirement + " years left of work :<!");
+}
