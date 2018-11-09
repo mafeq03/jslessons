@@ -276,3 +276,10 @@ function retireTime (year, firstName){
   var retirement = 65 - age;
   console.log( firstName +" has " + retirement + " years left of work :<!");
 }
+
+//Function Statements and Expressions
+
+//function expression
+var yourProfession = function (job, firstName){
+
+}
