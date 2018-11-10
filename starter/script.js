@@ -280,6 +280,8 @@ function retireTime (year, firstName){
 //Function Statements and Expressions
 
 //function expression
-var yourProfession = function (job, firstName){
-
+var yourProfession = function(job, firstName){
+  switch(job){
+    case 'teacher'
+  }
 }
