@@ -289,5 +289,8 @@ var yourProfession = function(job, firstName){
     case 'designer':
       return firstName + ' designs beautiful websites';
     default: 
+      return firstName + ' does something else';
 }
 }
+
+console.log(yourProfession('teacher', 'Joanne'));
