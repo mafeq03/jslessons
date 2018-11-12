@@ -282,6 +282,12 @@ function retireTime (year, firstName){
 //function expression
 var yourProfession = function(job, firstName){
   switch(job){
-    case 'teacher'
-  }
+    case 'teacher':
+    return firstName + ' teaches kids how to code';
+  
+    case 'driver':
+
+    case 'designer':
+
+    default: 
 }
