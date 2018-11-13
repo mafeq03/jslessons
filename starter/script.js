@@ -296,3 +296,5 @@ var yourProfession = function(job, firstName){
 console.log(yourProfession('teacher', 'Joanne'));
 console.log(yourProfession ('mathematician', 'Peter'));
 console.log(yourProfession ('designer', 'Steph'));
+
+//Anything that produces a result is an expression 
