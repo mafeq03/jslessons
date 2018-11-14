@@ -300,3 +300,5 @@ console.log(yourProfession ('designer', 'Steph'));
 //Anything that produces a result is an expression 
 
 //Arrays
+var names = ['John', 'Mark', 'Jane'];
+var years = 
