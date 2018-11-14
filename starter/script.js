@@ -298,3 +298,5 @@ console.log(yourProfession ('mathematician', 'Peter'));
 console.log(yourProfession ('designer', 'Steph'));
 
 //Anything that produces a result is an expression 
+
+//Arrays
