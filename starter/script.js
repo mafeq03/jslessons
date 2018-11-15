@@ -305,3 +305,5 @@ var years = new Array (1990,1970,1989);
 
 console.log(names[2]);
 console.log(names.length);
+
+names [2];
