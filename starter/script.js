@@ -312,5 +312,21 @@ console.log(names);
 
 //Different data types
 var info = ['Nina', 'Tages', 2001, 'student', false];
+//adds to array at the end
 info.push('green');
 console.log(info);
+//adds to array at the beginning
+info.unshift('Ms');
+console.log(info);
+
+//removes from the end of array
+info.pop();
+console.log(info);
+//removes from the beginning
+info.shift();
+console.log(info);
+
+console.log(info.indexOf(23));
+
+var isPainter = info.indexOf('designer') === -1 ? 'Nina is not a painter' : 'Nina is a painter';
+console.log(isPainter);
