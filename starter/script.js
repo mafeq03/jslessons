@@ -311,3 +311,6 @@ names[names.length] = 'Joseph';
 console.log(names); 
 
 //Different data types
+var info = ['Nina', 'Tages', 2001, 'student', false];
+info.push('green');
+console.log(info);
