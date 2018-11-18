@@ -348,4 +348,7 @@ In the end, John would like to have 2 arrays:
 (NOTE: To calculate 20% of a value, simply multiply it with 20/100 = 0.2)
 
 GOOD LUCK 😀
+
 */
+
+var ages = [];
