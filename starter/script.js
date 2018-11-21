@@ -332,14 +332,18 @@ var isPainter = info.indexOf('designer') === -1 ? 'Nina is not a painter' : 'Nin
 console.log(isPainter);
 
 
-/*****************************
+/*****************************Knowledge of Florida Statutes Chapters 61 and 63; FamiKnowledge of Florida Statutes Chapters 61 and 63; Family Law Rules of
+Procedure.ly Law Rules of
+Procedure.
 * CODING CHALLENGE 3
 */
 
 /*
 John and his family went on a holiday and went to 3 different restaurants. The bills were $124, $48 and $268.
 
-To tip the waiter a fair amount, John created a simple tip calculator (as a function). He likes to tip 20% of the bill when the bill is less than $50, 15% when the bill is between $50 and $200, and 10% if the bill is more than $200.
+To tip the waiter a fair amount, John created a simple tip calculator (as a function). 
+He likes to tip 20% of the bill when the bill is less than $50, 15% when the bill is between $50 and $200, 
+and 10% if the bill is more than $200.
 
 In the end, John would like to have 2 arrays:
 1) Containing all three tips (one for each bill)
@@ -350,6 +354,12 @@ In the end, John would like to have 2 arrays:
 GOOD LUCK 😀
 
 */
+
+
+
+function tipCalculator (total){
+  
+}
 
 var ages = [];
 var members = [];
