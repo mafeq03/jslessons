@@ -358,8 +358,17 @@ GOOD LUCK 😀
 
 
 function tipCalculator (total){
-  
-}
+  var percentage;
+  if (total < 50){
+    percentage = 0.15;
+  }else if (total >50 && total < 200 ){
+    percentage =0.2;
+  }else {
+    percentage = 0.1;
+  }
+  return percentage * total;
+  }
 
-var ages = [];
-var members = [];
+var bills = [124,48,268];
+var tips = [tipCalculator(bills[0]), tipCalculator(bills[1]),bills[2]];
+console.log(tips);
