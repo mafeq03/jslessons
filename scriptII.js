@@ -1,3 +1,6 @@
 //Objects and properties
 
-var john = {};
+var john = {
+  key: value,
+  
+};
