@@ -2,6 +2,7 @@
 
 var john = {
   key: value,
-  key1: value2
+  key1: value2,
+  im: goingToBed
   
 };
