@@ -1,6 +1,9 @@
 //Objects and properties
 
 var john = {
-  firstName: 'John',
+  firstName: 'Stef',
+  lastName: 'Germanota',
+  birthYear: 1986,
+  family: ['Joanne']
   
 };
