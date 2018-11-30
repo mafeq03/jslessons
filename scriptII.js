@@ -4,6 +4,7 @@ var john = {
   firstName: 'Stef',
   lastName: 'Germanota',
   birthYear: 1986,
-  family: ['Joanne']
+  family: ['Joanne', 'John', 'Giovanni'],
+  job: 'Singer'
   
 };
