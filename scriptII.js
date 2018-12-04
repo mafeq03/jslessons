@@ -8,3 +8,7 @@ var john = {
   job: 'Singer'
   
 };
+
+var meg = {
+  
+}
